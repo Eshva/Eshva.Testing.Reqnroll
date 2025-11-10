@@ -1,0 +1,15 @@
+﻿{
+  "$schema": "https://schemas.reqnroll.net/reqnroll-config-latest.json",
+  "language": {
+    "feature": "en-US",
+    "binding": "en-US"
+  },
+  "trace": {
+    "coloredOutput": true
+  },
+  "bindingAssemblies": [
+    {
+      "assembly": "Eshva.Testing.Reqnroll"
+    }
+  ]
+}
