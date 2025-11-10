@@ -1,6 +1,6 @@
 using Reqnroll;
 
-namespace Eshva.Testing.Reqnroll;
+namespace Eshva.Testing.Reqnroll.Transformations;
 
 /// <summary>
 /// Strings step argument transformations.

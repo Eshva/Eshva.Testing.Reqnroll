@@ -26,6 +26,8 @@
     <None Include="../../../assets/reqnroll-128.png" Pack="true" PackagePath="/"/>
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="FluentAssertions"/>
+    <PackageReference Include="JetBrains.Annotations"/>
     <PackageReference Include="Reqnroll"/>
   </ItemGroup>
 </Project>

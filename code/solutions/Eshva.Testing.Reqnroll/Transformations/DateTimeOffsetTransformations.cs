@@ -1,7 +1,7 @@
 ﻿using System.Globalization;
 using Reqnroll;
 
-namespace Eshva.Testing.Reqnroll;
+namespace Eshva.Testing.Reqnroll.Transformations;
 
 /// <summary>
 /// Date-time related step argument transformations.
