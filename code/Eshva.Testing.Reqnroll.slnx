@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/shared/">
+    <File Path="Directory.Build.props"/>
+    <File Path="Directory.Packages.props"/>
+    <File Path="..\.dockerignore"/>
+    <File Path="..\.gitignore"/>
+    <File Path="..\readme.md"/>
+  </Folder>
+  <Project Path="solutions\Eshva.Testing.Reqnroll\Eshva.Testing.Reqnroll.csproj" Type="Classic C#"/>
+</Solution>

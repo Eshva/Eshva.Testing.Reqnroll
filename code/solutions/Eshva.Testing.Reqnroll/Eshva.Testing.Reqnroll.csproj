@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <PackageId>Eshva.Testing.Reqnroll</PackageId>
+    <Version>0.1.0</Version>
+    <Description>Useful utils for .NET BDD framework Reqnroll (a fork of SpecFlow).</Description>
+    <PackageTags>testing;bindings;steps;transformations</PackageTags>
+    <PackageReadmeFile>readme.md</PackageReadmeFile>
+    <PackageIcon>reqnroll-128.png</PackageIcon>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;netstandard2.1;net6.0;net7.0;net8.0;net9.0;net462</TargetFrameworks>
+    <RootNamespace>Eshva.Testing.Reqnroll</RootNamespace>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DocumentationFile>bin\Debug\Eshva.Testing.Reqnroll.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DocumentationFile>bin\Release\Eshva.Testing.Reqnroll.xml</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="../../../readme.md" Pack="true" PackagePath="/"/>
+    <None Include="../../../assets/reqnroll-128.png" Pack="true" PackagePath="/"/>
+  </ItemGroup>
+</Project>
