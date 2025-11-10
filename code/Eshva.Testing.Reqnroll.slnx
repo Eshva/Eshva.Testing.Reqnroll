@@ -5,6 +5,8 @@
     <File Path="../.dockerignore"/>
     <File Path="../.gitignore"/>
     <File Path="../readme.md"/>
+    <File Path="..\.github\workflows\ci.yaml"/>
+    <File Path="..\.github\workflows\release.yaml"/>
   </Folder>
   <Project Path="solutions/Eshva.Testing.Reqnroll/Eshva.Testing.Reqnroll.csproj" Type="Classic C#"/>
   <Project Path="tests/Eshva.Testing.Reqnroll.Tests.InProcess/Eshva.Testing.Reqnroll.Tests.InProcess.csproj"
