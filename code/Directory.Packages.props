@@ -6,11 +6,11 @@
   <ItemGroup>
     <PackageVersion Include="JetBrains.Annotations" Version="2025.2.2"/>
     <PackageVersion Include="Reqnroll" Version="3.2.1"/>
-    <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="[17.13.0]"/>
+    <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.13.0"/>
     <PackageVersion Include="Reqnroll.xUnit" Version="3.2.1"/>
     <PackageVersion Include="xunit" Version="2.9.3"/>
-    <PackageVersion Include="xunit.runner.visualstudio" Version="[2.8.2]"/>
-    <PackageVersion Include="FluentAssertions" Version="[6.12.2]"/>
+    <PackageVersion Include="xunit.runner.visualstudio" Version="2.8.2"/>
+    <PackageVersion Include="FluentAssertions" Version="6.12.2"/>
     <PackageVersion Include="XunitXml.TestLogger" Version="7.0.2"/>
   </ItemGroup>
 </Project>
