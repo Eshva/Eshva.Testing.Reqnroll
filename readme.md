@@ -18,7 +18,7 @@ Or via appropriate window in Rider or Visual Studio.
 
 Then place in the root of your test project folder a file named
 `reqnroll.json` ([more info about Reqnroll configuration](https://docs.reqnroll.net/latest/installation/configuration.html)),
-if you don't have it yet, and add into it the following `bindingAssemblies` section:
+if you don't have it yet, and add into it the following `bindingAssemblies` [section](https://docs.reqnroll.net/latest/installation/configuration.html#bindingassemblies):
 
 ```json
 {
