@@ -1,6 +1,9 @@
 *.feature.cs
-.idea/
-.run/
+.idea
+test_result.xml
+*cobertura.xml
+*.cobertura
+coverage/
 
 # User-specific files
 *.rsuser
